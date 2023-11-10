@@ -1,0 +1,53 @@
+header h1 {
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.grid_peliculas{
+  padding: 0;
+  margin: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.pelicula{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 16px;
+}
+
+.pelicula h3, .pelicula p{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.pelicula img {
+  margin-top: 16px;
+  justify-items: end;
+  align-items: end;
+}
